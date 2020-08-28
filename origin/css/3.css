@@ -1,0 +1,128 @@
+
+/**/
+.nfooter {
+    height: 525px;
+    padding-top: 40px;
+    margin-top: 70px;
+    background-color: #ffb81c;
+    font-size: 16px;
+    margin-top: 0 !important;
+}
+.nfooter .footer-links>li {
+    float: left;
+}
+.nfooter .service-information {
+    width: 325px;
+}
+.nfooter .service-information .links-title, .nfooter .our-app .links-title {
+    margin-bottom: 26px;
+}
+.nfooter .links-title {
+    font-size: 16px;
+}
+.nfooter .service-information .links-item.zh {
+    float: left;
+    width: 140px;
+}
+.nfooter .links-item.zh {
+    height: 33px;
+}
+.nfooter .public-media {
+    text-align: center;
+}
+.nfooter .footer-info {
+    margin-top: 40px;
+    font-size: 14px;
+}
+.nfooter .footer-info p {
+    margin-bottom: 20px;
+}
+.nfooter .footer-info span {
+    margin-right: 30px;
+}
+.nfooter .footer-info a, .nfooter .footer-info span {
+    font-size: 14px;
+}
+.nfooter .footer-info span:last-child {
+    margin-right: 0;
+}
+.nfooter .footer-info .footer-info-imgs a {
+    float: left;
+    width: 108px;
+    height: 40px;
+    margin-right: 30px;
+}
+.nfooter .footer-info .footer-info-imgs img {
+    width: 100%;
+    height: 100%;
+}
+.zh .nfooter span, .zh .nfooter a {
+    font-size: 14px;
+}
+@media only screen and (max-width: 1500px)
+.fixed-qrcode {
+    margin-left: -600px;
+    bottom: 125px;
+}
+.fixed-qrcode {
+    position: fixed;
+    left: 50%;
+    bottom: 15px;
+    margin-left: -732px;
+    width: 120px;
+    height: 164px;
+    z-index: 100;
+    display: none;
+    -webkit-box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.1);
+}
+.fixed-qrcode img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.nfooter .footer-logo {
+    position: relative;
+    width: 550px;
+    height: 240px;
+    background: url(../img/footer-logo.png) no-repeat 100%;
+}
+.nfooter .footer-logo .weibo {
+    left: 91px;
+}
+.nfooter .footer-logo .weibo, .nfooter .footer-logo .wechat {
+    position: absolute;
+    top: 107px;
+    height: 20px;
+    cursor: pointer;
+}
+.nfooter .footer-logo .weibo .icon-weibo, .nfooter .footer-logo .wechat .icon-wechat {
+    float: left;
+    font-size: 24px;
+    margin-right: 5px;
+    margin-top: -5px;
+}
+.nfooter .footer-logo .weibo span {
+    float: left;
+}
+.nfooter .qr-code img {
+    width: 100%;
+    height: 100%;
+}
+.nfooter .qr-code {
+    position: absolute;
+    left: -133px;
+    top: -50px;
+    width: 126px;
+    height: 120px;
+    display: none;
+}
+.nfooter .footer-logo .wechat {
+    left: 394px;
+}
+.nfooter .our-app {
+    margin-left: 207px;
+}
+.nfooter .qr-code-p {
+    position: relative;
+}
